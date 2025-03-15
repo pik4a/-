@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильтрация товаров</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .filter {
+            margin-bottom: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Магазин</h1>
+
+    <div class="filter">
+        <h2>Фильтр товаров</h2>
+        <form action="">
+            <label>
+                <input type="checkbox" name="category" value="electronics"> Электроника
+            </label>
+            <label>
+                <input type="checkbox" name="category" value="clothing"> Одежда
+            </label>
+            <label>
+                <input type="checkbox" name="category" value="toys"> Игрушки
+            </label>
+            <input type="submit" value="Фильтровать">
+        </form>
+    </div>
+
+    <div class="products">
+        <div class="product" data-category="electronics">Телевизор</div>
+        <div class="product" data-category="clothing">Футболка</div>
+        <div class="product" data-category="toys">Мягкая игрушка</div>
+        <div class="product" data-category="electronics">Смартфон</div>
+        <div class="product" data-category="clothing">Джинсы</div>
+    </div>
+
+</body>
+</html>

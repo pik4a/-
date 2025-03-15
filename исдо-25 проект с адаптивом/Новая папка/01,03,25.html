@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>новости</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="data:image/png;base64,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"
+                width="100px" height="100px">
+        </div>
+
+        <nav>
+            <a href="nav">nav</a>
+            <a href="nav">nav</a>
+            <a href="nav">nav</a>
+            <a href="nav">nav</a>
+        </nav>
+
+        <div class="registration">
+            <a href="vhod/reg">вход/рег</a>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="reclama">
+            <img src="https://avatars.mds.yandex.net/get-direct/5205338/Q3R6Z_SRaqJ8yr4NPTyGgg/y180">
+            <img src="https://avatars.mds.yandex.net/i?id=444b8b693cfa4f49646390fdc5554079_l-5330388-images-thumbs&n=13">
+        </div>
+
+
+
+        <div class="novosti">
+            <div class="novosti1">
+                <img src="https://avatars.mds.yandex.net/i?id=2a000001954df596a7d1c0450c7c2857aa41-1575462-fast-images&n=13" width="650px">
+            </div>
+                
+            
+            <div class="novosti-blok">
+                    <div class="novosti2">
+                        <img src="https://avatars.mds.yandex.net/i?id=2a000001954d315f5784421b2e24b5866893-1380977-fast-images&n=13" width="300px" height="170px">
+
+                    </div>
+                    <div class="novosti3">
+
+                        <img src="https://avatars.mds.yandex.net/i?id=2a000001954a39fdcb6d63341937064fc7f9-398136-fast-images&n=13"width="300px">
+                    </div>
+                </div>
+        </div>
+
+
+
+
+
+        <div class="novostirec">
+            <img src="https://avatars.mds.yandex.net/i?id=2a0000019542f32dc60fadb024f008d863cb-1031741-fast-images&n=13">
+        </div>
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="copy">
+            <p>2025г</p>
+            <p>Ваши права защищены</p>
+        </div>
+
+        <div class="contact">
+            <a href="tel:79061463343" target="_blank">Номер:79061463343</a>
+            <a href="mailto:nzrdovodov@gmail.com" target="_blank">Почта:nzrdovodov@gmail.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>

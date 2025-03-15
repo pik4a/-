@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: darkmagenta;
+}    
+header{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.reclama{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+}
+.reclama img{
+    padding-bottom: 20px;
+}
+.novosti{
+    display: flex;
+    flex-direction: column;
+}
+
+.novosti-blok{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.novostirec img{
+    width: 250px;
+    height: 250px;
+}
+
+.novosti1{
+    width: 600px;
+}
+.novosti2{
+    margin-right: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: aqua;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+nav{
+    font-size: 30px;
+}
+
+.registration {
+    font-size: 30px;
+}
+
+.copy{
+    margin-left: 10px;
+}

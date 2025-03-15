@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <link rel="stylesheet" href="ка4ко.css">
+</head>
+<body>
+    <header>
+        <h1>Костюмы "качков" для худых и толстых людей</h1>
+         <div class="burger">
+             ☰ Меню
+             </div>
+             <div class="menu">
+                <a href="faq.html">Часто задаваемые вопросы</a>
+                <a href="отзывы.html">Отзывы</a>
+                <a href="размеры.html">Размеры</a>
+                <a href="контакты.html">Контакты</a>
+             </div>
+        <nav>
+                <a href="главная.html">Главная</a>
+                <a href="о нас.html">О нас</a>
+                <!-- <a href="товары.html">Коллекция</a> -->
+                <a href="блог.html">Блог</a>
+        </nav>
+    </header>
+
+    <div class="filter">
+        <h2>Фильтр товаров</h2>
+        <form action="">
+            <label>
+                <input type="radio" name="category" value="skinny" checked> Костюмы для худых людей
+            </label>
+            <label>
+                <input type="radio" name="category" value="full"> Костюмы для полных людей
+            </label>
+
+        <h2>Выберите диапазон цены</h2>
+            <div class="slider-container">
+                <label for="minPrice">От:</label>
+                <input type="range" id="minPrice" min="0" max="1000000" value="0" class="slider" oninput="minValue.value = minPrice.value">
+                <output name="minValue">0</output> рублей
+            </div>
+            <div class="slider-container">
+                <label for="maxPrice">До:</label>
+                <input type="range" id="maxPrice" min="0" max="1000000" value="1000000" class="slider" oninput="maxValue.value = maxPrice.value">
+                <output name="maxValue">1000000</output> рублей
+            </div>
+
+            <input type="submit" value="Фильтровать">
+        </form>
+    </div>
+
+    <h2>Новинки и тренды в мире силиконовых костюмов</h2>
+<div class="gallery">
+    <div class="gallery-item">
+        <a href="Костюм 1.html">
+        <img src="https://avatars.mds.yandex.net/i?id=4ffebd89899038db447a0417698f0ec1_l-5858292-images-thumbs&ref=rim&n=13&w=700&h=837" alt="Костюм 1" width="250px" height="250px">
+        <p>Сила и гармония мускулов</p>
+        <p>Цена: <b>4500 Руб.</b></p>
+        </a>
+        <button>Купить</button>
+    </div>
+    <div class="gallery-item">
+        <a href="Костюм 2.html">
+        <img src="https://www.mentoday.ru/upload/img_cache/6c8/6c80aafaeced52fb0599b0ff43164115_ce_1200x800x0x397.jpg" alt="Костюм 2" width="250px" height="250px">
+        <p>Мужчина с уникальными мышцами</p>
+        <p>Цена: <b>15000 Руб.</b></p>
+        </a>
+        <button>Купить</button>
+    </div>
+    <div class="gallery-item">
+        <a href="Костюм 3.html">
+        <img src="https://avatars.mds.yandex.net/i?id=1ed8b7fd737e2e22a2999f8607cc3104_l-2769679-images-thumbs&ref=rim&n=13&w=800&h=800" alt="Костюм 3х" width="250px" height="250px">
+        <p>Спортивный стиль для активной жизни.</p>
+        <p>Цена: <b>4800 Руб.</b></p>
+        <button>Купить</button>
+        </a>
+    </div>
+</div>
+    <h2>Костюмы для худых людей</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="Костюм 1х.html">
+            <img src="https://avatars.mds.yandex.net/i?id=7560408f094682d5e6f5240f1e6103bb_sr-12366556-images-thumbs&n=13" alt="Костюм 1х" width="250px" height="250px">
+            <p>Стильный летний костюм в светлых тонах.</p>
+            <p>Цена: <b>15500 Руб.</b></p>
+            </a>
+            <button>Купить</button>
+        </div>
+        <div class="gallery-item">
+            <a href="Костюм 2х.html">
+            <img src="https://i.pinimg.com/736x/7b/79/ca/7b79caaac50f4ce4b1634401a07584ab.jpg" alt="Костюм 2х" width="250px" height="250px">
+            <p>Элегантный костюм для особых случаев.</p>
+            <p>Цена: <b>50000 Руб.</b></p>
+            </a>
+            <button>Купить</button>
+        </div>
+        <div class="gallery-item">
+            <a href="Костюм 3х.html">
+            <img src="https://avatars.mds.yandex.net/i?id=80ab507049ba673f427bf536526f90a5629d8861-4643835-images-thumbs&n=13" alt="Костюм 3х" width="250px" height="250px">
+            <p>Спортивный стиль для активной жизни.</p>
+            <p>Цена: <b>10500 Руб.</b></p>
+            <button>Купить</button>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Костюм 4х.html">
+            <img src="https://avatars.mds.yandex.net/i?id=138bb043e2a25aab5163c1bcca1826d512860dc7-7854793-images-thumbs&n=13" alt="Костюм 3п" width="250px" height="250px">
+            <p>Элегантный вечерний костюм для особых случаев.</p>
+            <p>Цена: <b>650000 Руб.</b></p>
+            <button>Купить</button>
+            </a>
+        </div>
+    </div>
+    <h2>Костюмы для полных людей</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="Костюм 1п.html">
+            <img src="./image/kandinsky-download-1739616319934.png" alt="Костюм 1п" width="250px" height="250px">
+            <p>Стильный костюм с поясом для акцента на талии.</p>
+            <p>Цена: <b>69000 Руб.</b></p>
+            <button>Купить</button>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Костюм 2п.html">
+            <img src="./image/kandinsky-download-1739616389285.png" alt="Костюм 2п" width="250px" height="250px">
+            <p>Элегантный вечерний костюм для особых случаев.</p>
+            <p>Цена: <b>100000 Руб.</b></p>
+            <button>Купить</button>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="Костюм 3п.html">
+            <img src="./image/kandinsky-download-1740462889016.png" alt="Костюм 3п" width="250px" height="250px">
+            <p>Элегантный дневной костюм для особых случаев.</p>
+            <p>Цена: <b>650000 Руб.</b></p>
+            <button>Купить</button>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
